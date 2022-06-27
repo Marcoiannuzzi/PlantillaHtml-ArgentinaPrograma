@@ -18,20 +18,22 @@
     background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/9/59/ZcVzSn.jpeg');
 }
 
-.encabezado{
+.conteiner{
     padding: 15px;
     border-radius: 25px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 20px;
     width: 80vw;
     background-color: rgba(240, 248, 255, 0.253);
+}
+
+.encabezado{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
 }
 
 .perfilConteiner{
     display: flex;
     flex-direction: column;
-    
 }
 
 .perfil{
@@ -45,3 +47,20 @@
     gap: 5px;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.logoCode{
+    width: 75%;
+}
+
+
+/* -- acerca de -- */
+
+.acercaDe{
+    display: flex;
+    flex-direction: column;
+}
