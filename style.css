@@ -6,8 +6,9 @@
     padding: 0;
     color: rgb(255, 255, 255);
     font-family: 'Roboto Mono', monospace;
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 2px 6px black, -2px -2px 6px black;
 }
+
 .contenedor{
     padding: 10px;
     display: flex;
@@ -22,28 +23,32 @@
     padding: 15px;
     border-radius: 25px;
     width: 80vw;
-    background-color: rgba(240, 248, 255, 0.253);
+    background-color: rgba(85, 141, 190, 0.432);
 }
 
 .encabezado{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .perfilConteiner{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .perfil{
-    width: 200px;
+    width: 180px;
     border: 5px outset rgba(34, 34, 170, 0.541);
     border-radius: 50%;
 }
 
 .botones{
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
 }
 
@@ -54,13 +59,13 @@
 }
 
 .logoCode{
-    width: 75%;
+    width: 250px;
 }
 
 
 /* -- acerca de -- */
 
-.acercaDe{
+.acercaDe .educacion .experiencia .skills .proyectos{
     display: flex;
     flex-direction: column;
 }
