@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 3px 3px black;
+}
+.contenedor{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/9/59/ZcVzSn.jpeg');
+}
+
+.encabezado{
+    padding: 15px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    width: 80vw;
+    background-color: rgba(240, 248, 255, 0.253);
+}
+
+.perfilConteiner{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.perfil{
+    width: 200px;
+    border: 5px outset rgba(34, 34, 170, 0.541);
+    border-radius: 50%;
+}
+
+.botones{
+    display: flex;
+    gap: 5px;
+}
+
